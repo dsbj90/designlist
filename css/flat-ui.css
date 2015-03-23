@@ -498,14 +498,9 @@ pre {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
   margin-bottom: 5px;
   line-height: 1.72222;
   background-color: #ffffff;
-  border: 2px solid #bdc3c7;
-  border-radius: 6px;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
 }
 .thumbnail > img,
 .thumbnail a > img {
