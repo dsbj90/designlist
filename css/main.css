@@ -6,12 +6,14 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
 	letter-spacing:2px;
+text-shadow: 3px 3px 6px #000;
 }
 
 .navbar-default {
   background-color: #0f151c;
   box-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
+  border-radius: 0;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -20,11 +22,16 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar-default .navbar-brand{
 	color: #EFEFEF;
+	margin-left: 30px;
+}
+
+.navbar-nav {
+  margin-left: 15px;
 }
 
 #welcome {
-	height: 400px;
-	background: url(../b.jpg) repeat  top;
+	height: 420px;
+	background: url(../a.jpg) no-repeat top;
 	margin-top:0;
 	margin-bottom:30px;
 	text-align:center; 
@@ -128,7 +135,9 @@ margin-bottom: 15px;
 
  .comment .form-control{
  	min-height: 100px;
- 	height: auto;
+ 	max-height: 300px;
+ 	width: 100%;
+ 	max-width: 537px;
  	min-width: 350px;
  	margin-bottom: 15px;
  }
@@ -139,3 +148,9 @@ margin-bottom: 15px;
  #favbtn{
  	margin-right: 20px;
  }
+
+ @media (max-width: 768px) {
+ #recommend {
+    display: none;
+  }
+}
