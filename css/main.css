@@ -4,9 +4,12 @@ body{
 p{
 	letter-spacing:1px;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h6{
 	letter-spacing:2px;
 text-shadow: 3px 3px 6px #000;
+}
+h2,h3,h4,h5{
+	letter-spacing:2px;
 }
 
 .navbar-default {
@@ -23,6 +26,10 @@ text-shadow: 3px 3px 6px #000;
 .navbar-default .navbar-brand{
 	color: #EFEFEF;
 	margin-left: 30px;
+}
+
+.navbar-default .navbar-brand.active{
+	color: #4AFFDB;
 }
 
 .navbar-nav {

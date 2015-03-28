@@ -1,4 +1,4 @@
-@font-face {
+active@font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/lato-black.eot');
   src: url('../fonts/lato/lato-black.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-black.woff') format('woff'), url('../fonts/lato/lato-black.ttf') format('truetype'), url('../fonts/lato/lato-black.svg#latoblack') format('svg');
@@ -2243,6 +2243,7 @@ select[multiple].navbar-form .btn {
 .navbar-default .navbar-brand {
   color: #34495e;
 }
+.navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #1abc9c;
@@ -2265,7 +2266,7 @@ select[multiple].navbar-form .btn {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #34495e;
+  color: #4AFFDB;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -2275,7 +2276,7 @@ select[multiple].navbar-form .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #1abc9c;
+  color: #4AFFDB;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
