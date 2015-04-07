@@ -4350,43 +4350,7 @@ body.vjs-full-window {
   -webkit-animation: sharp 2s ease infinite;
   animation: sharp 2s ease infinite;
 }
-.login {
-  background: url(../images/login/imac.png) 0 0 no-repeat;
-  background-size: 940px 778px;
-  color: #ffffff;
-  margin-bottom: 77px;
-  padding: 38px 38px 267px;
-  position: relative;
-}
-.login-screen {
-  background-color: #1abc9c;
-  min-height: 473px;
-  padding: 123px 199px 33px 306px;
-}
-.login-icon {
-  left: 200px;
-  position: absolute;
-  top: 160px;
-  width: 96px;
-}
-.login-icon > img {
-  display: block;
-  margin-bottom: 6px;
-  width: 100%;
-}
-.login-icon > h4 {
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 34px;
-  opacity: 0.95;
-  filter: alpha(opacity=95);
-}
-.login-icon > h4 small {
-  color: inherit;
-  display: block;
-  font-size: inherit;
-  font-weight: 700;
-}
+
 .login-form {
   background-color: #edeff1;
   padding: 24px 23px 20px;
@@ -4429,18 +4393,31 @@ body.vjs-full-window {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
+
+
+.login {
+  color: #000;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.login-win {
+    background-color: #fff;
+}
+
+.login .btn{
+  margin-top: 10px;
+}
+
 .login-link {
-  color: #bfc9ca;
+  color: #000;
   display: block;
   font-size: 13px;
   margin-top: 15px;
   text-align: center;
+  padding-top: 10px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
-  .login {
-    background-image: url(../images/login/imac-2x.png);
-  }
-}
+
 footer {
   background-color: #DFDFDF;
   color: #444;
